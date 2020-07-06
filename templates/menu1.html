@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-g'>
+<meta http-equiv='X-UA-Compatible' content='IE-edge'>
+<title>menu1</title>
+<meta name="viewport" content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='route.js'></script>
+</head>
+
+<body>
+
+<div ng-controller="myController">
+
+<form name=form1>
+    name
+    <input type="text" name="" id="" ng-model="name" placeholder="your name here" required></form></br>
+    email
+    <input type="text" name="" id="" ng-model="email" placeholder="e mail here" required></br>
+    <input type="submit" name="submit" value="submit" ng-click="click"></br>
+    <h1>name:{{name}}</h1>
+    <h1>e-mail:{{email}}</h1>
+</form>
+</div>
+</body>
+</html>
