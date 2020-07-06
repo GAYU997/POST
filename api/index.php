@@ -1,6 +1,10 @@
 <?php
 require  '../dbconfig.php'
 
+//http://localhost/postapi/api/index.php
+//[{
+    ......"name":"abc"
+//}]
 $sql = "select * from user";
 $result = $mysqli -> query($sql);
 
